@@ -1,0 +1,33 @@
+.items {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    border-style: solid lightgray 1px;
+    grid-template-columns: 1fr;
+    /* 한 열로 설정 */
+    gap: 10px;
+    padding: 10px;
+    /* 그리드 아이템 간의 간격 설정 */
+}
+
+.grid-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* 한 열로 설정 */
+}
+
+.grid-item {
+    padding: 10px;
+    /* 그리드 아이템의 패딩 설정 */
+}
+
+.headline {
+    display: flex;
+    align-items: baseline;
+    /* 텍스트를 기준선에 정렬 */
+}
+
+h1,
+small {
+    margin: 0;
+    /* h1과 small 요소의 기본 마진을 제거 */
+}

@@ -9,10 +9,12 @@ nav{
     color: white /*마우스가 해당 아이템 위로 가면 흰 색으로 변경되도록 지정*/
 }
 .navbar1 { 
-    display: inline-block;
+    display: grid;
+    grid-template-columns: auto;
     list-style: none;
     align-items: start;
     padding-left: 30%;
+    white-space: nowrap;
 }
 .navbar1 a {
     color: black; /*폰트 기본 색상*/
