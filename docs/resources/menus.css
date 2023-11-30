@@ -1,0 +1,43 @@
+/* 상단 메뉴의 스타일을 설정합니다. */
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 10vh; /*메뉴 그리드의 크기 설정*/
+}
+/* 마우스가 메뉴 버튼 위에 있을 때의 스타일 설정입니다.*/
+.navbar1 a:hover {
+    color: white /*마우스가 해당 아이템 위로 가면 흰 색으로 변경되도록 지정*/
+}
+.navbar1 { 
+    display: inline-block;
+    list-style: none;
+    align-items: start;
+    padding-left: 30%;
+}
+.navbar1 a {
+    color: black; /*폰트 기본 색상*/
+    font-size: 25px; /* 사이즈 */
+    text-decoration: none; /*링크에 언더 바가 없어지도록 설정*/
+}
+.navbar2 a:hover {
+    color: white /*마우스가 해당 아이템 위로 가면 흰 색으로 변경되도록 지정*/
+}
+.navbar2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    list-style: none; /*리스트의 앞의 모양을 없애고 텍스트만 나오도록 생성*/
+    text-align: right;/*아이템의 수평 정렬*/
+    gap: 10px;
+    padding-right: 30%;
+    margin-top: 30px;
+}
+.navbar2 li{
+    display: inline-block;
+}
+/* 메뉴 아이템의 스타일을 설정합니다.*/
+.navbar2 a {
+    color: black; /*폰트 기본 색상*/
+    font-size: 15px; /* 사이즈 */
+    text-decoration: none; /*링크에 언더 바가 없어지도록 설정*/
+}
+

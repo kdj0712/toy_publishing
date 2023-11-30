@@ -1,0 +1,14 @@
+nav {grid-area: nav;}
+main {grid-area: main;}
+footer {grid-area: footer;}
+
+.body {
+    display: grid;
+    grid-template-areas:
+    'nav'
+    'main' 
+    'footer';
+    grid-template-rows: 8% 80% 12%;
+    background-color: whitesmoke;
+    text-align: center;
+}

@@ -1,0 +1,15 @@
+.header {
+   text-align: center;
+}
+.title{
+    color:darkgray;
+    margin: 5vh;
+}
+p {
+    max-width: 600px;
+    margin: auto;
+}
+.text1{
+    color:darkgray;
+    display: block;
+}
